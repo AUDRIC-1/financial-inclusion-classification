@@ -1,0 +1,19 @@
+# Raw data stays on Google Drive, not in the repo
+*.csv
+*.zip
+data/
+
+# Saved models and logs live on Google Drive
+models/
+logs/
+*.pkl
+*.joblib
+*.keras
+*.h5
+
+# Python and notebook clutter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
+.venv/
